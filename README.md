@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Mestre
+- PRÉNOM : Andréa
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/zPtFVBPxVqCgVKCFk1iUYc/Andr%C3%A9a-Mestre_SAE_103_18-10-2024?node-id=12-109&t=EkKIK6DtbTMtysvL-1
 
 ## Sujet
 
