@@ -17,18 +17,24 @@
    
     <header class="header">
         <div class="header__left"> 
-            <button><img src="/assets/icon/icon-menu.svg" alt="iconMenu"></button>
+            <button aria-label="menu" aria-expanded="fasle" aria-controls="mainNav">
+                <img src="/assets/icon/icon-menu.svg" alt="iconMenu">
+            </button>
         </div> 
 
         <div class="header__center">
-        <a href="/index.html"><img src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival"></a>
+        <a href="/index.html" aria-label="Retourner à l'acceuil">
+            <img src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival">
+        </a>
         </div>
 
         <div class="header__right">
+            <a href="" aria-label="aller au panier">
             <img src="/assets/icon/icon-magasin.svg" alt="panier">
+            </a>
         </div>
 
-        <nav class="header__menu menu" id="mainNav">
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item"><a class="menu__link" href="">Accueil</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Festival</a></li>
@@ -38,6 +44,24 @@
                 <li class="menu__item"><a class="menu__link" href="">Écoresposabilité</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Infos Pratiques</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Contact</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/assets/icon/icon-instagram.svg" alt="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -154,7 +178,7 @@
                 <a href="">L’ensemble de nos tarifs</a>
             </section>
 
-            <section class="section section__engagement">
+            <section class="scetion section__engagement">
                 <h2 class="engagement__title">Notre Engagement Écoresponsable</h2>
                 <p class="engagement__texte">L'écoresponsabilité est au cœur de notre festival. Nous nous engageons à réduire notre impact environnemental en
                 privilégiant des pratiques durables, de l'utilisation de matériaux recyclés à la promotion de transports verts.
@@ -162,7 +186,7 @@
             </p>
 
             <a href="">Nos engagements écoresponsables</a>
-            </secion>
+            </section>
 
             <section class="section section__partenaires">
                 <h2 class="partenaires__title"> Nos Partenaires</h2>
@@ -178,7 +202,6 @@
                     <img src="/assets/icon/logo_departement_vosges_2016.svg.png" alt="icon-vosges">
                 </a>
             </section>
-        
     </main>
 
     <footer>
