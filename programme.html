@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+
+</head>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="header__left">
+            <button aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <img src="/assets/icon/icon-menu.svg" alt="iconMenu">
+
+            </button>
+        </div>
+
+        <div class="header__center">
+            <a href="/index.html" aria-label="Retourner à l'acceuil">
+                <img src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival">
+            </a>
+        </div>
+
+        <div class="header__right">
+            <a href="" aria-label="aller au panier">
+                <img src="/assets/icon/icon-magasin.svg" alt="panier">
+            </a>
+        </div>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="/index.html">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="/festival.html">Festival</a></li>
+                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="/rencontre.html">Rencontre</a></li>
+                <li class="menu__item"><a class="menu__link" href="/billetterie.html">Billetterie</a></li>
+                <li class="menu__item"><a class="menu__link" href="/ecoresponsabilite.html">Écoresposabilité</a></li>
+                <li class="menu__item"><a class="menu__link" href="/infospratique.html">Infos Pratiques</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="menu__secondaire">
+                <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
+                    <li>
+                        <a href="" aria-label="Viste notre facebook">
+                            <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" aria-label="Visite notre instagram">
+                            <img src="/assets/icon/icon-instagram.svg" alt="icon instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" aria-label="Visite notre twitter">
+                            <img src="/assets/icon/icon-twitter.svg" alt="icon twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="hero">
+            <h1 class="hero__title">Programme</h1>
+            <img class="hero__montain" src="/assets/img/white_montains.svg" alt="montagne" aria-hidden="true">
+            <img class="hero__line" src="/assets/icon/icon-line-white.svg" alt="ligne blache">
+        </div>
+
+        <div class="div__home">
+            <p class="div__intro intro">Découvrez la programmation riche et diversifiée du festival, mettant à l'honneur des films audacieux, des documentaires
+            inspirants et des œuvres inédites.
+            </p>
+
+            <p class="intro">Que vous soyez amateur de courts métrages, de longs métrages ou d'animations, plongez dans un univers cinématographique
+            unique, où chaque projection est une nouvelle aventure à vivre.
+            </p>
+
+            <p class="intro">Ne manquez pas les temps forts et les exclusivités qui rythmeront cette édition !
+            </p>
+        </div>
+
+        <img src="/assets/icon/icon-camera.svg" alt="icon caméra">
+
+        <section class="section section__listefilm">
+            <header class="section__header">
+                <h2 class="listefilm__title">Liste des Films</h2>
+            </header>
+
+                <div class="listefilm__container">
+                    <div class="fiche__film">
+                        <a href="#">
+                            <img src="/assets/img/honeyland-affiche.webp" alt="affiche honeyland">
+                            <h4 class="fiche__title">Honeyland</h4>
+                            <p class="fiche__legende">Tamara Kotevska</p>
+                        </a>
+                </div>
+
+                    <div class="listefilm__container">
+                        <div class="fiche__film">
+                            <a href="#">
+                                <img src="/assets/img/parasite_affiche.png" alt="affiche Parasite">
+                                <h4 class="fiche__title">Parasite</h4>
+                                <p class="fiche__legende">Bong Joon-ho</p>
+                            </a>
+                    </div>
+
+                    <div class="listefilm__container">
+                            <div class="fiche__film">
+                                <a href="#">
+                                    <img src="/assets/img/gardiennes-affiche.jpg" alt="Affiche les gardiennes">
+                                    <h4 class="fiche__title">Les gardiennes</h4>
+                                    <p class="fiche__legende">Xavier Beauvois</p>
+                                </a>
+                    </div>
+
+                    <div class="listefilm__container">
+                        <div class="fiche__film">
+                            <a href="#">
+                                <img src="/assets/img/ma_loute-film.png" alt="Affiche Ma loute">
+                                <h4 class="fiche__title">Ma Loute</h4>
+                                <p class="fiche__legende">Bruno Dumont</p>
+                            </a>
+                    </div>
+
+                    <div class="listefilm__container">
+                        <div class="fiche__film">
+                            <a href="">
+                                <img src="/assets/img/pupille_affiche.webp" alt="Affiche Pupille">
+                                <h4 class="fiche__title">Pupille</h4>
+                                <p class="fiche__legende">Jeannne Henry</p>
+                            </a>
+                    </div>
+
+                    <div class="listefilm__container">
+                        <div class="fiche__film">
+                            <a href="">
+                                <img src="/assets/img/your_name-affiche.jpg" alt="Affiche Your name">
+                                <h4 class="fiche__title">Your name</h4>Affiche
+                                <p class="fiche__legende">Makoto Shinkai</p>
+                            </a>
+                    </div>
+                </div>
+        </section>
+
+        <section class="section section__filmjour ">
+            <header class="section__header">
+                <h2 class="filmjour__title">Jour 1</h2>
+                <h2 class="filmjour__title">Lundi 12 novembre</h2>
+            </header>
+        
+            <div class="carrousel--film-une">
+                <a class="carrousel__link" href="/templatefilm.html">
+                    <img class="carrousel__img--film" src="/assets/img/parasite_affiche.png" alt="image Film Parasite">
+                
+                    <h4></h4>
+                <p></p>
+                <p></p>
+                </a>
+                <a class="carrousel__link" href="/films.html">
+                    <img class="carrousel__img--film" src="assets/img/adolescentes_affiche.jpg" alt="image Film Adolescent">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                </a>
+                <a class="carrousel__link" href="/films.html">
+                    <img class="carrousel__img--film" src="assets/img/the_neighbors_window-affiche.png" alt="image Film Albatros">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                </a>
+            </div>
+        
+            <div class="arrow_carrousel">
+                <a class="arrow_carrousel__left" href="/">
+                    <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche">
+                </a>
+                <a class="arrow_carrousel__right" href="/">
+                    <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche">
+                </a>
+            </div>
+        </section>
+
+        <section class="section section__filmjour2 ">
+                <header class="section__header">
+                    <h2 class="filmjour__title">Jour 2</h2>
+                    <h2 class="filmjour__title">Mardi 13 novembre</h2>
+                </header>
+            
+                <div class="carrousel--film-une">
+                    <a class="carrousel__link" href="/templatefilm.html">
+                        <img class="carrousel__img--film" src="/assets/img/gardiennes-affiche.jpg" alt="Affcihe Film Les gardiennes">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/honeyland-affiche.png" alt="Affiche Film Honeyland">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/ma_loute-film.png" alt="Affiche Film Albatros">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </div>
+            
+                <div class="arrow_carrousel">
+                    <a class="arrow_carrousel__left" href="/">
+                        <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche gauche">
+                    </a>
+                    <a class="arrow_carrousel__right" href="/">
+                        <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
+                    </a>
+                </div>
+        </section>
+
+            <section class="section section__filmjour ">
+                <header class="section__header">
+                    <h2 class="filmjour__title">Jour 3</h2>
+                    <h2 class="filmjour__title">Mercredi 14 novembre</h2>
+                </header>
+            
+                <div class="carrousel--film-une">
+                    <a class="carrousel__link" href="/templatefilm.html">
+                        <img class="carrousel__img--film" src="/assets/img/pupille_affiche.webp"alt="Affcihe Film Les gardiennes">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/your_name-affiche.jpg" alt="Affiche Film Honeyland">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/adolescentes_affiche.jpg" alt="Affiche Film Albatros">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </div>
+            
+                <div class="arrow_carrousel">
+                    <a class="arrow_carrousel__left" href="/">
+                        <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche gauche">
+                    </a>
+                    <a class="arrow_carrousel__right" href="/">
+                        <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
+
+                    </a>
+                </div>
+            </section>
+
+                <section class="section section__filmjour ">
+                    <header class="section__header">
+                        <h2 class="filmjour__title">Jour 4</h2>
+                        <h2 class="filmjour__title">Jeudi 15 novembre</h2>
+                    </header>
+                
+                    <div class="carrousel--film-une">
+                        <a class="carrousel__link" href="/templatefilm.html">
+                            <img class="carrousel__img--film" src="/assets/img/honeyland-affiche.webp" alt="Affcihe Film Les gardiennes">
+                                <h4></h4>
+                                <p></p>
+                                <p></p>
+                        </a>
+                        <a class="carrousel__link" href="/films.html">
+                            <img class="carrousel__img--film" src="assets/img/gardiennes-affiche.jpg" alt="Affiche Film Honeyland">
+                            <h4></h4>
+                            <p></p>
+                            <p></p>
+                        </a>
+                        <a class="carrousel__link" href="/films.html">
+                            <img class="carrousel__img--film" src="assets/img/parasite_affiche.png" alt="Affiche Film Albatros">
+                            <h4></h4>
+                            <p></p>
+                            <p></p>
+                        </a>
+                    </div>
+                
+                    <div class="arrow_carrousel">
+                        <a class="arrow_carrousel__left" href="/">
+                            <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche gauche">
+                        </a>
+                        <a class="arrow_carrousel__right" href="/">
+                            <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
+                        </a>
+                    </div>
+                </section>
+
+            <section class="section section__filmjour ">
+                <header class="section__header">
+                    <h2 class="filmjour__title">Jour 5</h2>
+                    <h2 class="filmjour__title">Vendredi 16 novembre</h2>
+                </header>
+            
+                <div class="carrousel--film-une">
+                    <a class="carrousel__link" href="/templatefilm.html">
+                        <img class="carrousel__img--film" src="/assets/img/pupille_affiche.webp"
+                            alt="Affcihe Film Les gardiennes">
+                            <h4></h4>
+                            <p></p>
+                            <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/adolescentes_affiche.jpg" alt="Affiche Film Honeyland">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                    <a class="carrousel__link" href="/films.html">
+                        <img class="carrousel__img--film" src="assets/img/your_name-affiche.jpg" alt="Affiche Film Albatros">
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </a>
+                </div>
+            
+                <div class="arrow_carrousel">
+                    <a class="arrow_carrousel__left" href="/">
+                        <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche gauche">
+                    </a>
+                    <a class="arrow_carrousel__right" href="/">
+                        <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
+                    </a>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="/festival.html">Festival</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="#">Mention Légales</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Support</a>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/mmi_montbeliard/">
+                    <img src="/assets/icon/icon-instagram.svg" alt="icon-intagram">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR">
+                    <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://x.com/MMImontbeliard/status/1365345886981656577">
+                    <img src="/assets/icon/icon-twitter.svg" alt="icon-twitter">
+                </a>
+            </li>
+        </ul>
+        <p>Ce site est un projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département MMi de
+            Montbéliard</p>
+        <img src="/assets/img/white_montains.svg" alt="">
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
