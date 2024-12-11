@@ -19,6 +19,7 @@
         <div class="header__left"> 
             <button aria-label="menu" aria-expanded="fasle" aria-controls="mainNav">
                 <img src="/assets/icon/icon-menu.svg" alt="iconMenu">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
             </button>
         </div> 
 
@@ -46,23 +47,25 @@
                 <li class="menu__item"><a class="menu__link" href="">Contact</a></li>
             </ul>
 
-            <ul>
+            <div class="menu__secondaire">
+            <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
                 <li>
-                    <a href="">
+                    <a href="" aria-label="Viste notre facebook">
                         <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="/assets/icon/icon-instagram.svg" alt="icon">
+                    <a href="" aria-label="Visite notre instagram">
+                        <img src="/assets/icon/icon-instagram.svg" alt="icon instagram">
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <img src="" alt="">
+                    <a href="" aria-label="Visite notre twitter">
+                        <img src="/assets/icon/icon-twitter.svg" alt="icon twitter">
                     </a>
                 </li>
             </ul>
+            </div>
         </nav>
     </header>
   
@@ -71,7 +74,7 @@
         <div class="hero">
           <h1 class="hero__title">Cinémagny</h1>
           <h2 class="hero__chapo">12 au 16 novembre 2025</h2>
-          <img src="/assets/img/white_montains.svg" alt="">
+          <img src="/assets/img/white_montains.svg" alt="montagne" aria-hidden="true">
         </div>
 
         <div class="div__home">
@@ -213,13 +216,13 @@
         <a href="/contact.html">Contact</a>
     </li>
     <li>
-        <a href="">Mention Légales</a>
+        <a href="#">Mention Légales</a>
     </li>
     <li>
-        <a href="">FAQ</a>
+        <a href="#">FAQ</a>
     </li>
     <li>
-        <a href="">Support</a>
+        <a href="#">Support</a>
     </li>
 </ul>
 
