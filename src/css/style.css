@@ -1,2 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* === Vendors === */
+/* Importation des bibliothèques externes ou fichiers CSS tiers */
 @import url(/src/css/vendors/normalize.css);
+@import url();
+
+/* === Utils === */
+/* Importation des fichiers utilitaires comme les mixins ou fonctions */
 @import url(/src/css/utils/variables.css);
+@import url();
+
+/* === Base === */
+/* Importation des styles globaux ou des configurations de base */
+
+
+/* === Layout === */
+/* Importation des styles pour la mise en page globale */
+@import url(/src/css/layout/header.css);
+
+
+/* === Components === */
+/* Importation des styles spécifiques aux composants */
+@import url(/src/css/components/section.css);
+@import url(/src/css/components/menu.css);
