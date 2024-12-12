@@ -25,3 +25,11 @@
 @import url(/src/css/components/section.css);
 @import url(/src/css/components/menu.css);
 
+.partenaire__img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.section__hero{
+    background-color: var(--blue);
+}
