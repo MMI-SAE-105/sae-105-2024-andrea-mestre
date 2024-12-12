@@ -1,150 +1,236 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parasite</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
 
-<script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
 
-
-</head>
-
-<body>
-
-    <header class="header">
+  <body>
+    <section class="section__hero">
+      <header class="header">
         <div class="header__left">
-            <button aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-                <img src="/assets/icon/icon-menu.svg" alt="iconMenu">
-            </button>
+          <button
+            class="menu__icon"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <img
+              class="menu-btn"
+              src="/assets/icon/icon-menu.svg"
+              alt="iconMenu"
+            />
+          </button>
         </div>
 
         <div class="header__center">
-            <a href="/index.html" aria-label="Retourner à l'acceuil">
-                <img src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival">
-            </a>
+          <a
+            class="header__logo--link"
+            href="/index.html"
+            aria-label="Retourner à l'acceuil"
+          >
+            <img
+              class="header__logo--icon"
+              src="/assets/icon/logo-festival_cinemagny.svg"
+              alt="logoFestival"
+            />
+          </a>
         </div>
 
         <div class="header__right">
-            <a href="" aria-label="aller au panier">
-                <img src="/assets/icon/icon-magasin.svg" alt="panier">
-            </a>
+          <a class="header__panier--link" aria-label="aller au panier">
+            <img
+              class="header__panier--icon"
+              src="/assets/icon/icon-magasin.svg"
+              alt="panier"
+            />
+          </a>
         </div>
 
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item"><a class="menu__link" href="/index.html">Accueil</a></li>
-                <li class="menu__item"><a class="menu__link" href="/festival.html">Festival</a></li>
-                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
-                <li class="menu__item"><a class="menu__link" href="/rencontre.html">Rencontre</a></li>
-                <li class="menu__item"><a class="menu__link" href="/billetterie.html">Billetterie</a></li>
-                <li class="menu__item"><a class="menu__link" href="/ecoresponsabilite.html">Écoresposabilité</a></li>
-                <li class="menu__item"><a class="menu__link" href="/infospratique.html">Infos Pratiques</a></li>
-                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="/index.html">Accueil</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/festival.html">Festival</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/programme.html">Programme</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/rencontre.html">Rencontre</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/billetterie.html">Billetterie</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/ecoresponsabilite.html"
+                >Écoresposabilité</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="/infospratique.html"
+                >Infos Pratiques</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="menu__secondaire">
+            <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
+              <li>
+                <a
+                  href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR"
+                  aria-label="Viste notre facebook"
+                >
+                  <img
+                    src="/assets/icon/icon-facebook.svg"
+                    alt="icon-facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/mmi_montbeliard/p/C1KAs9_N_Ed/?img_index=1"
+                  aria-label="Visite notre instagram"
+                >
+                  <img
+                    src="/assets/icon/icon-instagram.svg"
+                    alt="icon instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/mmimontbeliard"
+                  aria-label="Visite notre twitter"
+                >
+                  <img src="/assets/icon/icon-twitter.svg" alt="icon twitter" />
+                </a>
+              </li>
             </ul>
-
-            <div class="menu__secondaire">
-                <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
-                    <li>
-                        <a href="" aria-label="Viste notre facebook">
-                            <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" aria-label="Visite notre instagram">
-                            <img src="/assets/icon/icon-instagram.svg" alt="icon instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" aria-label="Visite notre twitter">
-                            <img src="/assets/icon/icon-twitter.svg" alt="icon twitter">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          </div>
         </nav>
-    </header>
-
+      </header>
+    </section>
 
     <main>
-        <article class="article__parasite">
-            <img class="article__parasite--affiche" src="/assets/img/parasite_affiche.png" alt="">
-            <h2 class="article__title">Parasite</h2>
-            <p class="article__soustitle">Bong Joon-ho</p>
-            <p class="article__legende legende">Thriller &sol; comédie &sol; drame &sol; film coréen</p>
-            <p class="article__petitelegende legende">132' &sol;</p>
-            <time class="legende" datetime="2019-05-21">21 mais 2019</time>
+      <article class="article__parasite">
+        <img
+          class="article__parasite--affiche"
+          src="/assets/img/parasite_affiche.png"
+          alt=""
+        />
+        <h2 class="article__title">Parasite</h2>
+        <p class="article__soustitle">Bong Joon-ho</p>
+        <p class="article__legende legende">
+          Thriller &sol; comédie &sol; drame &sol; film coréen
+        </p>
+        <p class="article__petitelegende legende">132' &sol;</p>
+        <time class="legende" datetime="2019-05-21">21 mais 2019</time>
 
-            <p class="article__corps">Parasite est un film sud-coréen réalisé par Bong Joon-ho, qui raconte l’histoire de deux familles issues de classes
-                sociales radicalement différentes.
-                La famille Kim, pauvre et vivant dans un sous-sol insalubre, survit en effectuant de petits boulots. Un jour, le fils de
-                la famille, Ki-woo, obtient un emploi en tant que tuteur privé pour la fille d’une famille riche, les Park. En utilisant
-                son intelligence et ses manigances, Ki-woo réussit à faire embaucher son père, sa mère et sa sœur dans diverses
-                fonctions auprès des Park, en dissimulant leurs liens familiaux et en se faisant passer pour des experts.
-            </p>
-            <p class="article__corps">
-                Cependant, la situation va rapidement dégénérer lorsqu'une série de secrets et de tensions éclatent au sein de la maison
-                des Park, menaçant de faire s'effondrer les vies de tous les protagonistes. Un thriller sociétal qui explore les
-                inégalités de classe, les ambitions humaines et les conséquences d’un système social injuste.
-            </p>
-        </article>
+        <p class="article__corps">
+          Parasite est un film sud-coréen réalisé par Bong Joon-ho, qui raconte
+          l’histoire de deux familles issues de classes sociales radicalement
+          différentes. La famille Kim, pauvre et vivant dans un sous-sol
+          insalubre, survit en effectuant de petits boulots. Un jour, le fils de
+          la famille, Ki-woo, obtient un emploi en tant que tuteur privé pour la
+          fille d’une famille riche, les Park. En utilisant son intelligence et
+          ses manigances, Ki-woo réussit à faire embaucher son père, sa mère et
+          sa sœur dans diverses fonctions auprès des Park, en dissimulant leurs
+          liens familiaux et en se faisant passer pour des experts.
+        </p>
+        <p class="article__corps">
+          Cependant, la situation va rapidement dégénérer lorsqu'une série de
+          secrets et de tensions éclatent au sein de la maison des Park,
+          menaçant de faire s'effondrer les vies de tous les protagonistes. Un
+          thriller sociétal qui explore les inégalités de classe, les ambitions
+          humaines et les conséquences d’un système social injuste.
+        </p>
+      </article>
 
-            <video src="#"></video>
+      <video src="#"></video>
 
-         <article class="article__bong">
-            <h2 class="article__bong--title">Le réalisateur</h2>
-            <img class="article__img" src="/assets/img/bong-joon-ho-realisateur.jpg" alt="image réalisateur Parasite">
-            <p class="article__corps">
-                Bong Joon-ho (né le 14 septembre 1969 en Corée du Sud) est un réalisateur et scénariste sud-coréen reconnu pour ses films qui mêlent genres variés et critiques sociales.
-            </p>
+      <article class="article__bong">
+        <h2 class="article__bong--title">Le réalisateur</h2>
+        <img
+          class="article__img"
+          src="/assets/img/bong-joon-ho-realisateur.jpg"
+          alt="image réalisateur Parasite"
+        />
+        <p class="article__corps">
+          Bong Joon-ho (né le 14 septembre 1969 en Corée du Sud) est un
+          réalisateur et scénariste sud-coréen reconnu pour ses films qui mêlent
+          genres variés et critiques sociales.
+        </p>
 
-            <p>
-                Après des débuts remarqués avec "Barking Dogs Never Bite" (2000), il connaît un grand succès avec "The Host" (2006) et "Snowpiercer" (2013). Son film "Parasite" (2019), qui explore les inégalités sociales, remporte la Palme d'Or à Cannes et l'Oscar du meilleur film, faisant de lui l'un des cinéastes les plus influents de sa génération.
-            </p>
-        </article>
+        <p>
+          Après des débuts remarqués avec "Barking Dogs Never Bite" (2000), il
+          connaît un grand succès avec "The Host" (2006) et "Snowpiercer"
+          (2013). Son film "Parasite" (2019), qui explore les inégalités
+          sociales, remporte la Palme d'Or à Cannes et l'Oscar du meilleur film,
+          faisant de lui l'un des cinéastes les plus influents de sa génération.
+        </p>
+      </article>
     </main>
 
     <footer>
-        <ul>
-            <li>
-                <a href="/festival.html" aria-label="#">Festival</a>
-            </li>
-            <li>
-                <a href="/contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#">Support</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="/festival.html" aria-label="#">Festival</a>
+        </li>
+        <li>
+          <a href="/contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Support</a>
+        </li>
+      </ul>
 
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/mmi_montbeliard/" aria-label="#">
-                    <img src="/assets/icon/icon-instagram.svg" alt="icon-intagram">
-                </a>
-            </li>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/mmi_montbeliard/" aria-label="#">
+            <img src="/assets/icon/icon-instagram.svg" alt="icon-intagram" />
+          </a>
+        </li>
 
-            <li>
-                <a href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR" aria-label="#">
-                    <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
-                </a>
-            </li>
+        <li>
+          <a
+            href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR"
+            aria-label="#"
+          >
+            <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook" />
+          </a>
+        </li>
 
-            <li>
-                <a href="https://x.com/MMImontbeliard/status/1365345886981656577" aria-label="#">
-                    <img src="/assets/icon/icon-twitter.svg" alt="icon-twitter">
-                </a>
-            </li>
-        </ul>
-        <p>Ce site est un projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département MMi de
-            Montbéliard</p>
-        <img src="/assets/img/white_montains.svg" alt="montagnes design" aria-hidden="true">
+        <li>
+          <a
+            href="https://x.com/MMImontbeliard/status/1365345886981656577"
+            aria-label="#"
+          >
+            <img src="/assets/icon/icon-twitter.svg" alt="icon-twitter" />
+          </a>
+        </li>
+      </ul>
+      <p>
+        Ce site est un projet réalisé en 2024 dans le cadre d'un exercice
+        pédagogique au département MMi de Montbéliard
+      </p>
+      <img
+        src="/assets/img/white_montains.svg"
+        alt="montagnes design"
+        aria-hidden="true"
+      />
     </footer>
-</body>
-
+  </body>
 </html>

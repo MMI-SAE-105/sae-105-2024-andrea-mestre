@@ -3,15 +3,44 @@
     position:fixed;
     inset: 0;
     z-index: 1;
-}
+    background-color: var(--blue);
+    color: var(--white);
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
 
 .menu__icon{
     background-color: transparent;
     border: none;
 }
 
-.header__logo--icon{
-    width: 180px;
-   
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
 }
 
+.menu__list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 34px;
+    margin-top: 63px;
+}
+
+.menu__item{
+    font-family: var(--font-family-heading2);
+    font-size: var(--font-heading2);
+    font-weight: 400;
+}
+
+.menu__secondaire{
+    display: flex;
+   padding-top: 47px;
+   padding-left: 47PX ;
+}
+
+.menu__socialmedia-list{
+    display: flex;
+    gap: 48px;
+}

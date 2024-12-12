@@ -12,7 +12,7 @@
 
 /* === Base === */
 /* Importation des styles globaux ou des configurations de base */
-
+@import url(/src/css/base/main.css);
 
 /* === Layout === */
 /* Importation des styles pour la mise en page globale */

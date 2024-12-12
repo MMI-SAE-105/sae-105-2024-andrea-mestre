@@ -1,9 +1,22 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-left: 25px;
     padding-right: 25px;
     
+}
+
+.header__logo--icon {
+    width: 180px;
+    margin-top: 26px;
+
+}
+
+.header__left{
+    margin-top: 60px;
+}
+
+.header__right{
+    margin-top: 60px;
 }
 
