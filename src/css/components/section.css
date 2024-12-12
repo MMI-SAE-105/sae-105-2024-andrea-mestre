@@ -6,6 +6,7 @@ section {
 
 .section__hero {
 background: linear-gradient(to bottom, #78B7CE, #BAE2B8);
+padding-bottom: 64px
 }
 
 

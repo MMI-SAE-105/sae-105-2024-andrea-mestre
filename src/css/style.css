@@ -25,6 +25,7 @@
 /* Importation des styles spécifiques aux composants */
 @import url(/src/css/components/section.css);
 @import url(/src/css/components/menu.css);
+@import url(/src/css/components/boutons.css);
 
 .partenaire__img{
     width: 100px;
