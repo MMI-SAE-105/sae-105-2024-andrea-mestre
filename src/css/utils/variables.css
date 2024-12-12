@@ -1,7 +1,6 @@
 /* Couleurs */
 :root {
-    --color-gradient: linear-gradient(#78B7CE,#BAE2B8);
-    --color-gradient2: linear-gradient(#BAE2B8,#78B7CE);
+    --color-gradient: linear-gradient(to bottom #78B7CE,#BAE2B8);
     --blue: #78B7CE;
     --black: #000;
     --white-cassé: #FCFCF4;
@@ -9,25 +8,26 @@
     --brown: #CEAF89;
     --green: #BAE2B8;
 
-  
-}
-
 /* Typographie */
-:root {
+
     --font-family-heading1: "Playfair Display", serif;
     --font-family-heading2: "Playfair", serif;
-    --font-body: "montserrat", sans-serif;
+    --font-family-body: "Montserrat", sans-serif;
     --font-heading1: 70px;
     --font-heading2: 40px;
     --font-heading3: 24px;
     --font-body: 20px;
     --font-body2: 15px;
     --font-body3: 12px;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 600;
+
     
-}
+
 
 /* Tailles et espacements */
-:root {
+
     --spacing-xs: 4px;
     --spacing-sm: 8px;
     --spacing-md: 16px;
@@ -42,10 +42,9 @@
     --container-espace-card: 70px;
     --container-espace-section: 160px;
     
-}
 
 /* Ombres */
-:root {
+
     --box-shadow-sm: 0px 1px 2px rgba(0, 0, 0, 0.4);
     --box-shadow-md: 0px 4px 6px rgba(0, 0, 0, 0.1);
     --box-shadow-lg: 0px 10px 15px rgba(0, 0, 0, 0.2);

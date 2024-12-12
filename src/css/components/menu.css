@@ -31,7 +31,7 @@
 .menu__item{
     font-family: var(--font-family-heading2);
     font-size: var(--font-heading2);
-    font-weight: 400;
+    font-weight: var(--font-weight-regular);
 }
 
 .menu__secondaire{
