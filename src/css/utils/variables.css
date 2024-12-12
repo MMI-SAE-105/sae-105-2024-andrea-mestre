@@ -1,6 +1,7 @@
 /* Couleurs */
 :root {
     --color-gradient: linear-gradient(#78B7CE,#BAE2B8);
+    --color-gradient2: linear-gradient(#BAE2B8,#78B7CE);
     --blue: #78B7CE;
     --black: #000;
     --white-cassé: #FCFCF4;

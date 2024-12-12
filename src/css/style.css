@@ -17,9 +17,11 @@
 /* === Layout === */
 /* Importation des styles pour la mise en page globale */
 @import url(/src/css/layout/header.css);
+@import url(/src/css/layout/footer.css);
 
 
 /* === Components === */
 /* Importation des styles spécifiques aux composants */
 @import url(/src/css/components/section.css);
 @import url(/src/css/components/menu.css);
+
