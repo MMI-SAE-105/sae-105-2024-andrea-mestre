@@ -26,6 +26,7 @@
 @import url(/src/css/components/section.css);
 @import url(/src/css/components/menu.css);
 @import url(/src/css/components/boutons.css);
+@import url(/src/css/components/carrousel.css);
 
 .partenaire__img{
     width: 100px;

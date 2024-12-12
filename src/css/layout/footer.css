@@ -1,6 +1,6 @@
 footer{
     background: linear-gradient(to top ,#78B7CE, #BAE2B8);
-   padding-top: 23px;
+    padding: 23px;
 }
 
 .footer__liste{
@@ -9,6 +9,8 @@ footer{
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -41,8 +43,11 @@ footer{
 }
 
 .footer__img{
-    width: 300px;
-
+    display: block;
+        width: 100vw;
+        margin: 0;
+        position: relative;
+        left: calc(-50vw + 50%);
 
 }
 

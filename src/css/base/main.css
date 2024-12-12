@@ -19,6 +19,16 @@ h3{
     text-align: center;
 }
 
+h2{
+    font-family: var(--font-family-heading2);
+    font-size: var(--size-heading2);
+    color: var(--black);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 p{
   font-family: var(--font-family-body); 
   font-size: var(--size-body); 

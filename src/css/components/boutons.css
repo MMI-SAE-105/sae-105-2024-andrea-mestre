@@ -12,3 +12,8 @@
     color: var(--black);
    
 }
+
+.film-une__btn {
+    background-color: var(--blue);
+}
+
