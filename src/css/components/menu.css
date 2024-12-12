@@ -20,6 +20,12 @@
     visibility: visible;
 }
 
+.menu__item {
+    font-family: var(--font-family-heading2);
+    font-size: var(--size-heading2);
+    font-weight: var(--font-weight-light);
+}
+
 .menu__list{
     display: flex;
     flex-direction: column;
@@ -28,11 +34,7 @@
     margin-top: 63px;
 }
 
-.menu__item{
-    font-family: var(--font-family-heading2);
-    font-size: var(--font-heading2);
-    font-weight: var(--font-weight-regular);
-}
+
 
 .menu__secondaire{
     display: flex;

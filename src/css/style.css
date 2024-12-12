@@ -18,6 +18,7 @@
 /* Importation des styles pour la mise en page globale */
 @import url(/src/css/layout/header.css);
 @import url(/src/css/layout/footer.css);
+@import url(/src/css/layout/hero.css);
 
 
 /* === Components === */

@@ -3,24 +3,25 @@
     --color-gradient: linear-gradient(to bottom #78B7CE,#BAE2B8);
     --blue: #78B7CE;
     --black: #000;
-    --white-cassé: #FCFCF4;
+    --blanc-cassé: #FCFCF4;
     --white: #FCFCF4;
     --brown: #CEAF89;
     --green: #BAE2B8;
 
 /* Typographie */
 
-    --font-family-heading1: "Playfair Display", serif;
-    --font-family-heading2: "Playfair", serif;
+    --font-family-heading1: "Playfair", serif;
+    --font-family-heading2: "Playfair Display", serif;
     --font-family-body: "Montserrat", sans-serif;
-    --font-heading1: 70px;
-    --font-heading2: 40px;
-    --font-heading3: 24px;
-    --font-body: 20px;
-    --font-body2: 15px;
-    --font-body3: 12px;
+    --font-heading1: 60px;
+    --size-heading2: 35px;
+    --size-heading3: 24px;
+    --size-body: 20px;
+    --size-body2: 15px;
+    --size-body3: 12px;
 
-    --font-weight-light: 300;
+    
+    --font-weight-light: 400;
     --font-weight-regular: 600;
 
     
