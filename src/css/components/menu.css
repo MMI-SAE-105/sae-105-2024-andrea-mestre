@@ -9,9 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.header__logo--icon{
-    width: 180px;
-}
+
 
 .menu[aria-hidden="false"] {
     transform: translateX(0);

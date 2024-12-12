@@ -2,7 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: px;
+    padding-left: 31px;
+    padding-right: 31px;
+    height: 150px;
+}
+
+.header__logo--icon {
+    width: 180px;
+    padding-top: 80px;
+}
+
+.menu__icon {
+    background-color: transparent;
+    border: none;
 }
 
 
