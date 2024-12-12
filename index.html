@@ -1,256 +1,293 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinémagny</title>
     <link rel="stylesheet" href="/src/css/style.css">
+  </head>
 
-</head>
-
-
-
-<body>
-   
+  <body>
     <header class="header">
-        <div class="header__left"> 
-            <button aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-                <img src="/assets/icon/icon-menu.svg" alt="iconMenu">
-                
-            </button>
-        </div> 
+      <div class="header__left">
+        <button aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+          <img class="header__menu--icon" src="/assets/icon/icon-menu.svg" alt="iconMenu">
+        </button>
+      </div>
 
-        <div class="header__center">
-        <a href="/index.html" aria-label="Retourner à l'acceuil">
-            <img src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival">
+      <div class="header__center">
+        <a class="header__logo--link" href="/index.html" aria-label="Retourner à l'acceuil">
+          <img class="header__logo--icon" src="/assets/icon/logo-festival_cinemagny.svg" alt="logoFestival">
         </a>
+      </div>
+
+      <div class="header__right">
+        <a class="header__panier--link" aria-label="aller au panier">
+          <img class="header__panier--icon" src="/assets/icon/icon-magasin.svg" alt="panier" >
+        </a>
+      </div>
+
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="/index.html">Accueil</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/festival.html">Festival</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/programme.html">Programme</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/rencontre.html">Rencontre</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/billetterie.html">Billetterie</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/ecoresponsabilite.html">Écoresposabilité</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/infospratique.html">Infos Pratiques</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="menu__secondaire">
+          <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
+            <li>
+              <a href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR" aria-label="Viste notre facebook">
+                <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mmi_montbeliard/p/C1KAs9_N_Ed/?img_index=1" aria-label="Visite notre instagram">
+                <img
+                  src="/assets/icon/icon-instagram.svg" alt="icon instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/mmimontbeliard" aria-label="Visite notre twitter">
+                <img src="/assets/icon/icon-twitter.svg" alt="icon twitter">
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <div class="header__right">
-            <a href="" aria-label="aller au panier">
-            <img src="/assets/icon/icon-magasin.svg" alt="panier">
-            </a>
-        </div>
-
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item"><a class="menu__link" href="/index.html">Accueil</a></li>
-                <li class="menu__item"><a class="menu__link" href="/festival.html">Festival</a></li>
-                <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
-                <li class="menu__item"><a class="menu__link" href="/rencontre.html">Rencontre</a></li>
-                <li class="menu__item"><a class="menu__link" href="/billetterie.html">Billetterie</a></li>
-                <li class="menu__item"><a class="menu__link" href="/ecoresponsabilite.html">Écoresposabilité</a></li>
-                <li class="menu__item"><a class="menu__link" href="/infospratique.html">Infos Pratiques</a></li>
-                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
-            </ul>
-
-            <div class="menu__secondaire">
-            <ul class="menu__socialmedia-list" aria-label="Réseaux sociaux">
-                <li>
-                    <a href="" aria-label="Viste notre facebook">
-                        <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="" aria-label="Visite notre instagram">
-                        <img src="/assets/icon/icon-instagram.svg" alt="icon instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="" aria-label="Visite notre twitter">
-                        <img src="/assets/icon/icon-twitter.svg" alt="icon twitter">
-                    </a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+      </nav>
     </header>
-  
 
     <main>
         <div class="hero">
-          <h1 class="hero__title">Cinémagny</h1>
-          <h3 class="hero__chapo">12 au 16 novembre 2025</h3>
-        <img class="hero__montain" src="/assets/img/white_montains.svg" alt="montagne" aria-hidden="true">
-        <img class="hero__line" src="/assets/icon/icon-line-white.svg" alt="ligne blache" aria-hidden="true">
+            <h1 class="hero__title">Cinémagny</h1>
+            <h3 class="hero__chapo">12 au 16 novembre 2025</h3>
+            <img class="hero__montain" src="/assets/img/white_montains.svg" alt="montagne" aria-hidden="true">
+            <img class="hero__line" src="/assets/icon/icon-line-white.svg" alt="ligne blache" aria-hidden="true">
+      </div>
+
+      <div class="div__home">
+        <p class="div__intro intro">
+          Bienvenue à Cinémagny, le festival incontournable dédié à la
+          célébration du 7e art sous toutes ses formes ! Ce rendez-vous unique
+          offre une riche sélection de films, allant des longs métrages aux
+          courts, en passant par des documentaires et des films d'animation.
+        </p>
+
+        <p class="intro">
+          Cinémagny se distingue par son engagement à promouvoir les talents
+          émergents du cinéma indépendant et à mettre en lumière des artistes
+          locaux. Vous y découvrirez des œuvres méconnues, originales et
+          innovantes, dans un cadre authentique au cœur des Vosges.
+        </p>
+        <a class="intro__btn--festival" href="/festival.html">La programmation complète</a>
+      </div>
+
+      <section class="section section__film-une">
+        <header class="section__header">
+          <h2 class="film-une__title">Film à la Une</h2>
+        </header>
+
+        <div class="carrousel">
+            <a class="carrousel__link" href="/templatefilm.html" aria-label="Visite la fiche du film Parasite">
+                <img class="carrousel__img--film" src="/assets/img/parasite_affiche.png" alt="imageFilmParasite">
+            </a>
+
+            <a class="carrousel__link" href="/films.html" aria-label="Visite la fiche du film Pupille">
+                <img class="carrousel__img--film" src="assets/img/pupille_affiche.webp" alt="imageFilmPupille">
+            </a>
+
+            <a class="carrousel__link" href="/films.html" aria-label="Visite la fiche du film the neighbors window">
+                <img class="carrousel__img--film" src="assets/img/the_neighbors_window-affiche.png" alt="imageFilmTnw"> 
+            </a>
         </div>
 
-        <div class="div__home">
-            <p class="div__intro intro">Bienvenue à Cinémagny, 
-            le festival incontournable dédié à la célébration du 7e art sous toutes ses formes ! Ce
-            rendez-vous unique offre une riche sélection de films, 
-            allant des longs métrages aux courts, en passant par des documentaires et des films d'animation.
-            </p>
+        <div class="arrow_carrousel">
+          <a class="arrow_carrousel__left" href="/" aria-label="Décaler à gauche">
+            <img src="/assets/icon/icon-flèche_gauche.svg" alt="flèche gauche" aria-label="Décaler à gauche">
+          </a>
 
-            <p class="intro">Cinémagny se distingue par son engagement à promouvoir les talents émergents du cinéma indépendant et à mettre en
-            lumière des artistes locaux. Vous y découvrirez des œuvres méconnues, originales et innovantes, dans un cadre
-            authentique au cœur des Vosges.</p>
-
-            <a class="intro__btn--festival" href="/festival.html">La programmation complète</a>
+          <a class="arrow_carrousel__right" href="/" aria-label="Décaler à droite">
+            <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
+          </a>
         </div>
-            
-            
-            <section class="section section__film-une ">
-                <header class="section__header">
-                    <h2 class="film-une__title">Film à la Une</h2>
-                </header>
 
-                <div class="carrousel--film-une"> 
-                    <a class="carrousel__link" href="/templatefilm.html">
-                        <img class="carrousel__img--film" src="/assets/img/parasite_affiche.png" alt="imageFilmParasite">
-                    </a>
-                    <a class="carrousel__link" href="/films.html">
-                        <img class="carrousel__img--film" src="assets/img/pupille_affiche.webp" alt="imageFilmPupille">
-                    </a>
-                    <a class="carrousel__link" href="/films.html">
-                        <img class="carrousel__img--film" src="assets/img/the_neighbors_window-affiche.png" alt="imageFilmTnw">
-                    </a>
-                </div> 
+        <a class="film-une__btn btn" href="/programme.html">La Programmation Complète</a>
+      </section>
 
-                <div class="arrow_carrousel">
-                    <a class="arrow_carrousel__left" href="/"> 
-                        <img src="/assets/icon/icon-flèche_gauche.svg" alt="icon flèche gauche">
-                    </a>
-                    <a class="arrow_carrousel__right" href="/">
-                        <img src="/assets/icon/icon-fleche_droit.svg" alt="icon flèche droite">
-                    </a>
-                </div>
+      <section class="section section__formule">
+        <header class="section__header">
+          <h2 class="formule__title">Formules & Tarifs</h2>
+        </header>
 
-                <a class="film-une__btn btn" href="/programme.html">La Programmation Complète</a>
-            </section>
+        <div class="formule__card card">
+            <div class="card__header">
+                <h3 class="card__title">1 Jour - Immersion Express</h3>
+            </div>
 
-            <section class="section section__formule">
-                <header class="section__header">
-                    <h2 class="formule__title">Formules & Tarifs</h2>
-                </header>
-                <div class="formule__card card">
-                    <div class="card__header">
-                        <h3 class="card__title">1 Jour - Immersion Express</h3>
-                    </div>
-                    <div class="card__content">
-                        <p class="card__desc legende">Plongez dans l'univers du festival avec un accès complet pour une journée.</p>
-                        <p class="card__price">15 €</p>
-                        <a class="card__btn" aria-label="Acheter la formule">acheter</a>
-                    </div>
-                </div>
+            <div class="card__content">
+                <p class="card__desc legende">
+                Plongez dans l'univers du festival avec un accès complet pour une
+                journée.
+                </p>
+                <p class="card__price">15 €</p>
+                <a class="card__btn" href="billetterie.html" aria-label="Acheter la formule">acheter</a>
+            </div>
+        </div>
 
-                <div class="formule__card card">
-                    <div class="card__header">
-                        <h3 class="card__title">2 Jours - Expérience Cinéphile</h3>
-                    </div>
-                    <div class="card__content">
-                        <p class="card__desc legende">Plongez dans l'univers du festival avec un accès complet pour 2 journées.</p>
-                        <p class="card__price">25 €</p>
-                        <a class="card__btn" aria-label="Acheter la formule">acheter</a>
-                    </div>
-                </div>
+        <div class="formule__card card">
+            <div class="card__header">
+                <h3 class="card__title">2 Jours - Expérience Cinéphile</h3>
+            </div>
+            <div class="card__content">
+                <p class="card__desc legende">
+                Plongez dans l'univers du festival avec un accès complet pour 2
+                journées.
+                </p>
+                <p class="card__price">25 €</p>
+                <a class="card__btn" href="billetterie.html" aria-label="Acheter la formule">acheter</a>
+            </div>
+        </div>
 
-                <div class="formule__card card">
-                    <div class="card__header">
-                        <h3 class="card__title">3 Jours - Séjour Cinématographique</h3>
-                    </div>
-                    <div class="card__content">
-                        <p class="card__desc legende">Plongez dans l'univers du festival avec un accès complet pour 3 journée.</p>
-                        <p class="card__price">35 €</p>
-                        <a class="card__btn" aria-label="Acheter la formule">acheter</a>
-                    </div>
-                </div>
+        <div class="formule__card card">
+            <div class="card__header">
+                <h3 class="card__title">3 Jours - Séjour Cinématographique</h3>
+            </div>
+            <div class="card__content">
+                <p class="card__desc legende">
+                Plongez dans l'univers du festival avec un accès complet pour 3
+                journée.
+                </p>
+                <p class="card__price">35 €</p>
+                <a class="card__btn" href="billetterie.html" aria-label="Acheter la formule">acheter</a>
+            </div>
+        </div>
 
-                <div class="formule__card card">
-                    <div class="card__header">
-                        <h3 class="card__title">4 Jours - Pass Festival Complet</h3>
-                    </div>
-                    <div class="card__content">
-                        <p class="card__desc legende">Plongez dans l'univers du festival avec un accès complet pour une journée.</p>
-                        <p class="card__price">50 €</p>
-                        <a class="card__btn" aria-label="Acheter la formule">acheter</a>
-                    </div>
-                </div>
+        <div class="formule__card card">
+            <div class="card__header">
+                <h3 class="card__title">4 Jours - Pass Festival Complet</h3>
+            </div>
+            <div class="card__content">
+                <p class="card__desc legende">
+                Plongez dans l'univers du festival avec un accès complet pour une
+                journée.
+                </p>
+                <p class="card__price">50 €</p>
+                <a class="card__btn" href="billetterie.html" aria-label="Acheter la formule">acheter</a>
+          </div>
+        </div>
 
-                <div class="formule__card card">
-                    <div class="card__header">
-                        <h3 class="card__title">5 Jours - Immersion Totale</h3>
-                    </div>
-                    <div class="card__content">
-                        <p class="card__desc legende">Plongez dans l'univers du festival avec un accès complet pour toute la durée du festival.</p>
-                        <p class="card__price">65 €</p>
-                        <a class="card__btn" aria-label="Acheter la formule">acheter</a>
-                    </div>
-                </div>
+        <div class="formule__card card">
+            <div class="card__header">
+                <h3 class="card__title">5 Jours - Immersion Totale</h3>
+            </div>
+            <div class="card__content">
+                <p class="card__desc legende">
+                 Plongez dans l'univers du festival avec un accès complet pour
+                 toute la durée du festival.
+                </p>
+                <p class="card__price">65 €</p>
+                <a class="card__btn" href="billetterie.html"  aria-label="Acheter la formule">acheter</a>
+            </div>
+        </div>
 
-                <a href="/billetterie.html">L'ensemble de nos tarifs</a>
-            </section>
+        <a class="btn__bleu" href="/billetterie.html">L'ensemble de nos tarifs</a>
+      </section>
 
-            <section class="scetion section__engagement">
-                <header class="section__header">
-                    <h2 class="engagement__title">Notre Engagement Écoresponsable</h2>
-                </header>
-                <p class="engagement__texte">L'écoresponsabilité est au cœur de notre festival. Nous nous engageons à réduire notre impact environnemental en
-                privilégiant des pratiques durables, de l'utilisation de matériaux recyclés à la promotion de transports verts.
-                Ensemble, faisons du cinéma un vecteur de changement pour un avenir plus respectueux de la planète.
-            </p>
+      <section class="scetion section__engagement">
+        <header class="section__header">
+          <h2 class="engagement__title">Notre Engagement Écoresponsable</h2>
+        </header>
 
-            <a href="/ecoresponsabilite.html">Nos engagements écoresponsables</a>
-            </section>
+        <p class="engagement__texte">
+          L'écoresponsabilité est au cœur de notre festival. Nous nous engageons
+          à réduire notre impact environnemental en privilégiant des pratiques
+          durables, de l'utilisation de matériaux recyclés à la promotion de
+          transports verts. Ensemble, faisons du cinéma un vecteur de changement
+          pour un avenir plus respectueux de la planète.
+        </p>
 
-            <section class="section section__partenaires">
-                <header class="section__header">
-                    <h2 class="partenaires__title"> Nos Partenaires</h2>
-                </header>
-                <a href="https://www.iut-nfc.univ-fcomte.fr/">
-                    <img src="/assets/icon/icon-ufc.png" alt="icon-itu">
-                </a>
+        <a href="/ecoresponsabilite.html">Nos engagements écoresponsables</a>
+      </section>
 
-                <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                        <img src="/assets/icon/icon-MMI_montbéliard.png" alt="icon-mmi">
-                </a>
+      <section class="section section__partenaires">
+        <header class="section__header">
+          <h2 class="partenaires__title">Nos Partenaires</h2>
+        </header>
+        <a href="https://www.iut-nfc.univ-fcomte.fr/" aria-label="Visite le site partenaire UFC Nord Franche comté">
+          <img src="/assets/icon/icon-ufc.png" alt="icon-itu">
+        </a>
 
-                <a href="https://www.vosges.fr/">
-                    <img src="/assets/icon/logo_departement_vosges_2016.svg.png" alt="icon-vosges">
-                </a>
-            </section>
+        <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" aria-label="Visite le site partenaire MMI Montbéliard">
+            <img src="/assets/icon/icon-MMI_montbéliard.png" alt="icon-mmi">
+        </a>
+
+        <a href="https://www.vosges.fr/">
+          <img src="/assets/icon/logo_departement_vosges_2016.svg.png" alt="icon-vosges" aria-label="Visite le site partenaire des Vosges ">
+        </a>
+      </section>
     </main>
 
     <footer>
-<ul>
-    <li>
-        <a href="/festival.html">Festival</a>
-    </li>
-    <li>
-        <a href="/contact.html">Contact</a>
-    </li>
-    <li>
-        <a href="#">Mention Légales</a>
-    </li>
-    <li>
-        <a href="#">FAQ</a>
-    </li>
-    <li>
-        <a href="#">Support</a>
-    </li>
-</ul>
+      <ul>
+        <li>
+          <a href="/festival.html" aria-label="Visite notre page festival">Festival</a>
+        </li>
+        <li>
+          <a href="/contact.html" aria-label="contact nous dans la page contact">Contact</a>
+        </li>
+        <li>
+          <a href="#" aria-label="faq">FAQ</a>
+        </li>
+        <li>
+          <a href="#" aria-label="notre page support">Support</a>
+        </li>
+      </ul>
 
-<ul>
-    <li>
-        <a href="https://www.instagram.com/mmi_montbeliard/">
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/mmi_montbeliard/" aria-label="Visite notre instagram">
             <img src="/assets/icon/icon-instagram.svg" alt="icon-intagram">
-        </a>
-    </li>
+          </a>
+        </li>
 
-    <li>
-        <a href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR">
+        <li> aria-label=""
+          <a href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR" aria-label="visite notre facebook">
             <img src="/assets/icon/icon-facebook.svg" alt="icon-facebook">
-        </a>
-    </li>
+          </a>
+        </li>
 
-    <li>
-        <a href="https://x.com/MMImontbeliard/status/1365345886981656577">
+        <li>
+          <a href="https://x.com/MMImontbeliard/status/1365345886981656577" aria-label="visite notre twitter">
             <img src="/assets/icon/icon-twitter.svg" alt="icon-twitter">
-        </a>
-    </li>
-</ul>
-<p>Ce site est un projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
-<img src="/assets/img/white_montains.svg" alt="montagne design" aria-hidden="true">
-    </footer>  
-</body>
+          </a>
+        </li>
+      </ul>
+      <p>
+        Ce site est un projet réalisé en 2024 dans le cadre d'un exercice
+        pédagogique au département MMi de Montbéliard
+      </p>
+      <img src="/assets/img/white_montains.svg" alt="montagne design" aria-hidden="true">
+    </footer>
+  </body>
 </html>
