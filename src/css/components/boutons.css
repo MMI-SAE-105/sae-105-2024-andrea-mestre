@@ -28,5 +28,11 @@
     position: relative;
     left: 98px;
     top: 12px;
-   
+}
+
+.btn__bleu{
+    background: var(--brown);
+    color: var(--black);
+    width: 279px; ;
+    text-align: center;
 }
