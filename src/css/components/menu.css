@@ -28,7 +28,8 @@ body.noscroll {
     transition-delay: var(--delay, 0s);
 }
 
-.menu[aria-hidden="false"] .menu__item {
+.menu[aria-hidden="false"]
+.menu__item {
     opacity: 1;
     transform: translateY(0);
 }
@@ -63,12 +64,6 @@ body.noscroll {
 
 .menu__item:nth-child(8) {
     --delay: 0.8s;
-}
-
-.menu[aria-hidden="false"] {
-    transform: translateX(0);
-    visibility: visible;
-    transition: transform 0.3s ease, visibility 0s;
 }
 
 .menu__list {

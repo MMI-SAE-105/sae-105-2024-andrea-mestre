@@ -16,7 +16,13 @@
     overflow: hidden;
     max-width: 100%;
     gap: 24px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
 
+.carrousel::-webkit-scrollbar {
+    display: none;
 }
 
 .carrousel__img--film{
@@ -39,3 +45,5 @@
 .carrousel__img{
     width: 78px;
 }
+
+

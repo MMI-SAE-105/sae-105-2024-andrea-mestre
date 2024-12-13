@@ -68,3 +68,20 @@ a{
 
 
 
+.icon__localisation{
+  display: block;
+  margin: 0 auto;
+}
+
+.icon__phone{
+    display: block;
+    margin: 0 auto;
+    }
+
+.icon__mail {
+    display: block;
+    margin: 0 auto;
+}
+
+
+

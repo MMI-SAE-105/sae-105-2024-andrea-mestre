@@ -59,3 +59,15 @@
     width: 279px; ;
     text-align: center;
 }
+
+.arrow__carrousel--right{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow__carrousel--left{
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
