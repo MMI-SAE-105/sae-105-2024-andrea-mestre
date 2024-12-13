@@ -16,3 +16,10 @@
     background-color: var(--blue);
 }
 
+.engagement__btn {
+    background-color: var(--blue);
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+.card__btn {}

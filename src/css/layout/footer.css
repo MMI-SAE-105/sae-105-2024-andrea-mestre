@@ -44,10 +44,10 @@ footer{
 
 .footer__img{
     display: block;
-        width: 100vw;
-        margin: 0;
-        position: relative;
-        left: calc(-50vw + 50%);
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    left: calc(-50vw + 50%);
 
 }
 

@@ -10,16 +10,6 @@ h1{
     text-align: center;
 }
 
-h3{
-    font-family: var(--font-family-heading2);
-    font-size: var(--size-heading3 24px);
-    color: var(--white);
-    font-weight: var(--font-weight-light);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 0px;
-    text-align: center;
-}
-
 h2{
     font-family: var(--font-family-heading2);
     font-size: var(--size-heading2);
@@ -44,10 +34,24 @@ a{
     color: var(--white);
 }
 
+.hero__chapo {
+    font-family: var(--font-family-heading2);
+    font-size: var(--size-heading3 24px);
+    color: var(--white);
+    font-weight: var(--font-weight-light);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+    text-align: center;
+}
+
 .title{
     padding-bottom: 50px;
 }
 
+.partenaires__title{
+    padding-top: 160px;
+}
+   
 .div__home{
     margin-top: 78px;
     width: 335px;
@@ -56,4 +60,6 @@ a{
 .intro{
     margin-bottom: 60px;
 }
+
+
 

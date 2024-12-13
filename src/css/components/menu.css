@@ -13,6 +13,7 @@
 .menu__icon{
     background-color: transparent;
     border: none;
+    
 }
 
 .menu[aria-hidden="false"] {
