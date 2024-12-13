@@ -60,7 +60,7 @@
     bottom: 57px;
 }
 
-.card__title{
+.card__title--realisateur{
     margin: 0;
     font-family: var(--font-family-body);
     color: var(--white);
