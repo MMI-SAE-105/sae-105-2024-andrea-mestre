@@ -9,6 +9,10 @@
     justify-content: space-between;
     }
 
+body.noscroll {
+    overflow: hidden;
+}
+
 
 .menu__icon{
     background-color: transparent;

@@ -9,8 +9,13 @@
     align-items: center;
 }
 
+.listefilm__img{
+    width: 165px;
+    height: 220px;
+}
+
 video{
 width: 265px;
-    height: 200px;
+height: 200px;
 }
 
