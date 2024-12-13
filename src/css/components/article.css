@@ -1,0 +1,68 @@
+.article__parasite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.article__parasite--affiche{
+    width: 285px;
+    height: 382px;
+}
+
+.article__title{
+    position: relative;
+    right: 20%;
+}
+
+.article__soustitle{
+    position: relative;
+    right: 19%;
+    margin: 0; 
+}
+
+.article__legende{
+    margin: 0;
+    position: relative;
+    left: 6%;
+}
+
+.article__petitelegende{
+    margin: 0;
+    position: relative;
+    right: 19.5%;
+    margin-top: 12px ;
+}
+
+.article__corps2{
+    padding-bottom: 160px;
+}
+
+.article__bong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.article__bong--title{
+    padding-top: 160px;
+}
+.article__img{
+    width: 270px;
+    height: 274px;
+    object-fit: cover;
+}
+.article__corps3{
+    margin-top: var(--container-espace-texte);
+}
+.article__corps4{
+    margin-bottom: 200px;
+}
+
+
+

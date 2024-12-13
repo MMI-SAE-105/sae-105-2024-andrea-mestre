@@ -3,3 +3,14 @@
     justify-content: center;
     align-items: center;
 }
+.article__video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+width: 265px;
+    height: 200px;
+}
+
