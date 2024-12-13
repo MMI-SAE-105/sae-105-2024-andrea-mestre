@@ -1,14 +1,19 @@
-.formule__title{
-    width: 134px;
+.section__formule{
     padding-top: 160px;
+    padding-bottom: 160px;
 }
+
+.formule__title{
+    width: 134px; 
+    padding-bottom: 0px;    
+}
+
 .section__formule{
     display: flex;
     justify-content: space-between;
     gap: 70px;
     align-items: center;
     flex-direction: column;
-
 }
 
 .formule__card{

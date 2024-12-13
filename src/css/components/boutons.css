@@ -23,5 +23,10 @@
 
 }
 .card__btn {
-    
+    background: var(--black);
+    border-radius: 50px;
+    position: relative;
+    left: 98px;
+    top: 12px;
+   
 }
