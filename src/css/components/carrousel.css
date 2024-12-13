@@ -32,14 +32,14 @@
 
 .arrow__carrousel--left{
     position: relative ;
-    top: 50px;
-    left: 100px;
+    top: 40px;
+    left: 90px;
 }
 
 .arrow__carrousel--right{
     position: relative ;
-    top: 50px;
-    left: 140px;
+    top: 40px;
+    left: 115px;
 }
 
 .carrousel__img{
