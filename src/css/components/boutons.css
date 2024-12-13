@@ -10,10 +10,14 @@
 .intro__btn--festival{
     background: var(--white);
     color: var(--black);
+    margin-left: 10px;
 }
 
 .film-une__btn {
     background-color: var(--blue);
+    margin-left: 43px;
+    position: relative;
+    top: 75px;
 }
 
 .engagement__btn {
