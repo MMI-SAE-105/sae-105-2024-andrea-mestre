@@ -38,6 +38,7 @@
 
 .article__corps2{
     padding-bottom: 160px;
+    margin: 0;
 }
 
 .article__bong{
@@ -51,6 +52,22 @@
 
 .article__bong--title{
     padding-top: 160px;
+}
+
+.card__realisateur{
+    position: relative;
+    bottom: 57px;
+}
+
+.card__title{
+    margin: 0;
+    font-family: var(--font-family-body);
+    color: var(--white);
+    border: 1px solid transparent;
+    background: var(--black);
+    background: rgba(0, 0, 0, 0.8) ;
+    padding: 19px 64px;
+    text-align: center;
 }
 .article__img{
     width: 270px;
