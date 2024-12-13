@@ -68,9 +68,17 @@ a{
 
 
 
-.icon__localisation{
-  display: block;
-  margin: 0 auto;
+.localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.localisation__link{
+    font-family: var(--font-family-body);
+    color: var(--black);
 }
 
 .icon__phone{
@@ -81,6 +89,15 @@ a{
 .icon__mail {
     display: block;
     margin: 0 auto;
+}
+
+.section__dechets--title{
+    padding-top: 160px;
+   
+}
+
+.dechets__corps{
+    padding-bottom: 200px;
 }
 
 
