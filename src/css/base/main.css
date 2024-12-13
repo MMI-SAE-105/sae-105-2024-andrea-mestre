@@ -67,5 +67,13 @@ a{
    padding-bottom: 40px;
 }
 
+.lesvosges__texte{
+    padding-bottom: 160px;
+}
+
+.legende{
+    font-size: var(--size-body2);
+}
+
 
 
